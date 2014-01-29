@@ -13,6 +13,7 @@ for v in linesp[1:]:
     if (list(v)[0]=='>'):
         lines.append(acum)
         lines.append(v)
+        
         acum = ""
     else:
         acum += v
